@@ -6,8 +6,8 @@ def largest_number(num1, num2):
     return max(num1, num2)
 
 
-num1 = (input("Enter first number: "))
-num2 = (input("Enter second number: "))
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
 
 
 largest = largest_number(num1, num2)
